@@ -1,9 +1,8 @@
 name: Developer_Pull_Request
 on:
-  on:
-    push:
-      branches:
-        - 'main'
+  push:
+    branches:
+      - 'main'
   pull_request:
     branches:
       - 'main'
