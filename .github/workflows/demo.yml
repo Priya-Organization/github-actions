@@ -1,5 +1,8 @@
 name: Developer_Pull_Request
-on: [workflow_call]
+on:
+  push : ["main"]
+pull_request:
+  branches: ["main"]
 
 jobs:
   CI_Steps:
