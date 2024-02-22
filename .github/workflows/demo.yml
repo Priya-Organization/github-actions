@@ -1,8 +1,8 @@
 name: Developer_Pull_Request
 on:
-  push : ["main"]
-pull_request:
-  branches: ["main"]
+  pull_request:
+    branches:
+      - 'main'
 
 jobs:
   CI_Steps:
