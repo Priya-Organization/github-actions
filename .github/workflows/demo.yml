@@ -1,9 +1,8 @@
-name: Developer_Pull_Request
+name: Demo
 on:
   push:
     branches:
       - 'main'
-
 
 jobs:
   CI_Steps:
