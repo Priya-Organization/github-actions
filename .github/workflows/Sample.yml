@@ -1,6 +1,6 @@
-name: Developer_Pull_Request
+name: Sample
 on:
-  pull_request:
+  push:
     branches:
       - 'main'
 
